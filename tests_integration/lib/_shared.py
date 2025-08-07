@@ -84,7 +84,8 @@ def get_transparent_urls() -> set[str]:
         "https://raw.githubusercontent.com/janjagusch-regro-staging/*",
         "https://raw.githubusercontent.com/janjagusch-conda-forge-bot-staging/*",
         "https://raw.githubusercontent.com/janjagusch-bot/*",
-
+        "https://spdx.org/licenses/licenses.json",
+        "https://codeload.github.com/*",
     }
 
     # this is to protect against mistakes and typos, adjust if it ever becomes too strict

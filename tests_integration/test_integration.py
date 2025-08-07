@@ -62,7 +62,9 @@ def global_environment_setup():
 
     new_settings.frac_make_graph = 1.0  # do not skip nodes due to randomness
     new_settings.frac_update_upstream_versions = 1.0
-    new_settings.graph_github_backend_repo = "janjagusch-regro-staging/cf-graph-countyfair"
+    new_settings.graph_github_backend_repo = (
+        "janjagusch-regro-staging/cf-graph-countyfair"
+    )
     new_settings.conda_forge_org = "janjagusch-conda-forge-bot-staging"
 
     with use_settings(new_settings):
